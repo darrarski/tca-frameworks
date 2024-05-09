@@ -7,7 +7,7 @@ Experimental script for building binary XCFrameworks of [Composable Architecture
 - It's an experiment, not ready to be used in a production environment.
 - Run `build.sh` and go make yourself a coffee.
 - Tested with Swift 5.10 from Xcode 15.4 RC1.
-- [Spicio](https://github.com/giginet/Scipio) is used for generating XCFrameworks into `Frameworks` directory.
+- [Scipio](https://github.com/giginet/Scipio) is used for generating XCFrameworks into `Frameworks` directory.
 - Generated XCFrameworks supports iOS, iOS Simulator, and macOS architecture.
 - Swift Macros binaries are copied into `Macros` directory. These can be linked to a project using "Other Swift Flags" `-load-plugin-executable`.
 - Script does not cache any build artifacts on its own.
