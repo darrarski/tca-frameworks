@@ -6,4 +6,4 @@
 - Library product compiles for iOS and macOS.
 - Unit tests runs and passes on iOS.
 - Unit tests does not run on macOS ("Failed to load test bundle", CasePaths).
-- `Reducer._printChanges` does not work in Xcode previews (nothing is printed to the console when running previews).
+- `Reducer._printChanges` does not work (nothing is printed to the console when running previews). This is caused by building TCA XCFramework with release configuration.
